@@ -1,0 +1,24 @@
+div { 
+    background-color: rgb(78, 73, 73);
+        width: 100px;
+        height: 350px;
+        border: solid 5px black;
+        border-radius: 20px;
+        padding: 20px;
+}
+
+p {
+    background-color: rgb(228, 21, 21);
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    border: solid 5px black;
+}
+.two{
+    background-color: rgb(191, 255, 15);
+    }
+.three 
+{
+    background-color: rgb(14, 226, 7);
+    }
