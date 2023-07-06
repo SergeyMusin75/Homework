@@ -1,0 +1,93 @@
+.contanier{
+    background-color: cadetblue;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+.header{
+    background-color: rgb(204, 223, 223);
+    font-size: 20px;
+    height: 50px;
+    display: flex; /*для блокового отображения*/
+    align-items: center;  /*выравниваются по линии поперечной оси.*/
+    justify-content: space-around;/*определяет, как браузер распределяет пространство вокруг флекс-элементов вдоль главной оси контейнера.*/
+    margin: auto;/*размер внешнего отступа вокруг элемента сверху, справа, снизу и слева */
+}
+
+.logoMDT {
+    padding: 20px;/*внутренний отступ сверху, справа, снизу и слева */
+    height: 70px;
+    box-sizing: border-box; /*определяет как будут вести себя размеры блока*/
+}
+
+.logoW {
+    padding: 20px;
+    height: 70px;
+    box-sizing: border-box;
+}
+
+.FotoW {
+    padding: 20px;
+    height: 80%;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.FotoW2 {
+    padding: 20px;
+    height: 30%;
+    width: 90%;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: rgb(224, 129, 39);
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.main{
+    background-color: rgb(107, 114, 218);
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+a{
+    text-decoration: none;
+}
+.left{
+    background-color: azure;
+    background-position: left;
+    
+}
+.center{
+    background-color: azure;
+}
+.right{
+    background-color: azure;
+}
+.footer{
+    background-color: rgb(52, 143, 228);
+    margin-top: 10px;
+    /*width: 1000px;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: space-around;*/
+}
+ul {
+    margin: 0px;
+    list-style: none; /*убрать точки в списке*/
+    display:flex ; /*список по горизонтали*/
+    justify-content: space-around;
+}
+li{
+    margin: 20px;
+    font-size: 20px;
+}
+li:hover {
+    color: white;
+}
+p:hover {
+    color: white;
+}
