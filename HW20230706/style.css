@@ -1,0 +1,206 @@
+.container{
+    /* background-color: cadetblue; */
+    width:1000px;
+    height: 500px;
+    margin: auto;
+}
+.header{
+    background-color: rgb(204, 223, 223);
+    font-size: 20px;
+    height: 50px;
+    display: flex; /*для блокового отображения*/
+    align-items: center;  /*выравниваются по линии поперечной оси.*/
+    justify-content: space-around;/*определяет, как браузер распределяет пространство вокруг флекс-элементов вдоль главной оси контейнера.*/
+    margin: auto;/*размер внешнего отступа вокруг элемента сверху, справа, снизу и слева */
+}
+
+.logoMDT {
+    padding: 20px;/*внутренний отступ сверху, справа, снизу и слева */
+    height: 70px;
+    box-sizing: border-box; /*определяет как будут вести себя размеры блока*/
+}
+
+.logoW {
+    padding: 20px;
+    height: 70px;
+    box-sizing: border-box;
+}
+
+img {
+    height: 200px;
+    margin: 5px;
+}
+.menu{
+    background-color: rgb(224, 129, 39);
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.main{
+    /* background-color: rgb(107, 114, 218); */
+    height: 415px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+a{
+    text-decoration: none;
+}
+.left{
+    /* background-color: azure; */
+    background-position: left;
+    
+}
+/* .center{
+    background-color: azure;
+} */
+/* .right{
+    background-color: azure;
+} */
+.footer{
+    background-color: rgb(57, 182, 73);
+    margin-top: 10px;
+    /*width: 1000px;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: space-around;*/
+}
+ul {
+    margin: 0px;
+    list-style: none; /*убрать точки в списке*/
+    display:flex ; /*список по горизонтали*/
+    justify-content: space-around;
+}
+li{
+    margin: 5px;
+    color: rgb(5, 5, 5);
+    font-size: 15px;
+}
+li:hover {
+    color: white;
+}
+p:hover {
+    color: white;
+}
+.right {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr ;
+}
+@media (max-width:1150px) {
+    .right {
+        /* background-color: red; */
+        grid-template: 1fr 1fr/ 1fr 1fr ;
+    }
+  
+    /* .header {
+        
+        background-color: rgb(236, 224, 224);
+    } */
+    .container {
+        width: 950px;
+        height: 400px;
+    }
+    img {
+        height: 150px;
+        margin: 5px;
+    }
+    .main{
+        height: 320px;
+    }
+    li{
+        margin: 10px;
+        color: rgb(5, 5, 5);
+        font-size: 15px;
+    }
+}
+@media (max-width:950px) {
+    .right {
+        /* background-color: yellow; */
+        /* width: 80%; */
+        grid-template: 1fr 1fr / 1fr 1fr;
+    }
+    .left {
+        width: 20%;
+    }
+    .container {
+        width: 80%;
+    }
+    img {
+        height: 100px;
+        margin: 5px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .menu{
+        background-color: rgb(224, 129, 39);
+        height: 40px;
+        font-size: 10px;
+    }
+    .main{
+        height: 220px;
+    }
+    li{
+        margin: 4px;
+        color: rgb(5, 5, 5);
+        font-size: 12px;
+    }
+}
+@media (max-width:650px) {
+    .right {
+        /* background-color: pink; */
+        grid-template: 1fr 1fr 1fr 1fr/ 1fr;
+        text-align: center;
+    }
+    .main {
+        height: 450px;
+    }
+    .container {
+        width: 500px;
+    }
+    li{
+        margin: 4px;
+        color: rgb(5, 5, 5);
+        font-size: 12px;
+    }
+    .logoMDT {
+        padding: 20px;/*внутренний отступ сверху, справа, снизу и слева */
+        height: 60px;
+        box-sizing: border-box; /*определяет как будут вести себя размеры блока*/
+    }
+    
+    .logoW {
+        padding: 20px;
+        height: 60px;
+        box-sizing: border-box;
+    }
+}
+@media (max-width:550px) {
+    .right {
+        /* background-color: rgb(82, 14, 241); */
+        grid-template: 1fr 1fr 1fr 1fr / 1fr;
+        
+    }
+    .main {
+        height: 450px;
+    }
+    .container {
+        width: 500px;
+    }
+    .menu {
+        height: 200px;
+    }
+    ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    li{
+        margin: 5px;
+        color: rgb(5, 5, 5);
+        font-size: 15px;
+    }
+    h1{
+        font-size: 25px;
+    }
+}
