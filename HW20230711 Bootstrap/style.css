@@ -1,0 +1,91 @@
+.container-fluid{
+   background-color: rgb(27, 85, 137) !important;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(245 237 237);
+}
+div.col{
+    border-color: 10px solid black !important;
+    margin: 20px;
+}
+h1{
+    text-align: center;
+}
+
+.one{
+    background-color: rgb(248, 249, 250);
+    border-radius: 50px;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    border: solid 1px black;
+    display: inline-block;
+    text-align: right;
+}
+.two{
+    background-color: rgb(25, 135, 84);
+    border-radius: 50px;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    border: solid 1px black;
+    display: inline-block;
+    }
+.three 
+{
+    background-color: rgb(13, 202, 240);
+    border-radius: 50px;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    border: solid 1px black;
+    display: inline-block;
+    }
+.four{
+    background-color: rgb(220, 53, 69);
+    border-radius: 50px;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    border: solid 1px black;
+    display: inline-block;
+    }
+    .d33 {
+        width: 150px; 
+        height: 24px; 
+        margin-left: 26px;
+        background: #ecedf0;
+        position: relative;
+        border-radius: 0px;
+        }
+        .d33:before {
+        content: "";
+        width: 0; 
+        height: 0;
+        position: absolute; 
+        right: 100%; 
+        top: calc(50% - 12px);
+        border-top: 12px solid transparent;
+        border-right: 24px solid #ecedf0;
+        border-bottom: 12px solid transparent;
+        }
+        .d34 {
+            width: 150px; 
+            height: 24px; 
+            margin-left: 26px;
+            background: #ecedf0;
+            position: relative;
+            border-radius: 0px;
+            }
+            .d34:before {
+            content: "";
+            width: 0; 
+            height: 0;
+            position: absolute; 
+            left: 100%; 
+            top: calc(50% - 12px);
+            border-top: 12px solid transparent;
+            border-left: 24px solid #ecedf0;
+            border-bottom: 12px solid transparent;
+            }
